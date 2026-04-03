@@ -1,0 +1,6 @@
+#metadata
+apiVersion: v2
+name: catalogue
+version: 1.0.0
+descrption: catalogue installation 
+appVersion: v1
