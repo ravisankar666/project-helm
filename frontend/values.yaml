@@ -1,0 +1,6 @@
+deployment:
+  imageRepo: ravisankar666/frontend
+  imageVersion: v1
+service:
+  
+  servicePort: 80

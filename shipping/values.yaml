@@ -1,0 +1,6 @@
+deployment:
+  imageRepo: ravisankar666/shipping
+  imageVersion: v1
+service:
+
+  servicePort: 8080 

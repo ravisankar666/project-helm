@@ -1,0 +1,7 @@
+deployment:
+  imageRepo: rabbitmq
+  imageVersion: 3
+service:
+
+  servicePort: 5672
+  clusterIP: None 
