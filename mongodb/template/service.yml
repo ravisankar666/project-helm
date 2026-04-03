@@ -1,0 +1,15 @@
+apiVeriosn: v1
+kind: service
+metadata:
+  name: mongodb
+  namespace: roboshop
+spec:
+   type: {{ .values.service.type}}
+   selector:
+     project: roboshop
+     component: mongodb
+     teir: db
+   ports:
+    - protocol: TCP
+      port: 27017 # service port
+      targetPort: 27107 # container port

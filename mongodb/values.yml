@@ -1,0 +1,5 @@
+deployment: 
+   imageRpeo: ravisankar666/mongodb
+   imageVersion: v1
+service:
+  type: ClusterIP   
