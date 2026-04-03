@@ -20,9 +20,9 @@ spec:
   replicas: 1
   selector:
   #these labels are used to select pods
-    matchLables:
+    matchLabels: 
      project: roboshop
-     componet: catalogue
+     component: catalogue
      tier: backend
   # pod definition
   template:
