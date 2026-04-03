@@ -3,3 +3,5 @@ deployment:
   imageVersion: v1
 service:
   servicePort: 8080 # default value
+configmap:
+  mongoURL: "mongodb://mongodb:27017/catalogue"
