@@ -14,8 +14,8 @@ metadata:
  namespace: roboshop
  labels:
     project: roboshop
-    coponent: catalogue
-    teir: backend
+    component: catalogue
+    tier: backend
 spec:
   replicas: 1
   selector:
@@ -23,14 +23,14 @@ spec:
     matchLables:
      project: roboshop
      componet: catalogue
-     teir: backend
+     tier: backend
   # pod definition
   template:
    metadata:
       labels:
         project: roboshop
         component: catalogue
-        teir: backend
+        tier: backend
   spec:
     containers:
     - name: catalogue
