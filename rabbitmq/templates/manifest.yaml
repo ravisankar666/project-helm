@@ -23,7 +23,7 @@ spec:
   clusterIP: {{ .Values.service.clusterIP }}
   selector:
     project: roboshop
-    component: mongrabbitmqodb
+    component: rabbitmq
     tier: db
   ports:
     - protocol: TCP
